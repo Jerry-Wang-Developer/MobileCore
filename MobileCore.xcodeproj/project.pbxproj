@@ -7,9 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B24CEBE24CD2ABD00B179C3 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B24CEBD24CD2ABD00B179C3 /* HTTPClient.swift */; };
+		1B24CEC024CD2AF900B179C3 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B24CEBF24CD2AF900B179C3 /* HTTPRequest.swift */; };
+		1B24CEC224CD2CDF00B179C3 /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B24CEC124CD2CDF00B179C3 /* HTTPResponse.swift */; };
+		1B24CEC524CD33A600B179C3 /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B24CEC424CD33A600B179C3 /* Cancellable.swift */; };
+		1B595CDB2526BC2500054142 /* HTTPResponseBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B595CDA2526BC2500054142 /* HTTPResponseBody.swift */; };
+		1B595CDF2526BC7F00054142 /* HTTPContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B595CDE2526BC7F00054142 /* HTTPContentType.swift */; };
+		1B595CE32526BCE400054142 /* HTTPMediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B595CE22526BCE400054142 /* HTTPMediaType.swift */; };
+		1B5AE14F24DD100400FF2F03 /* AnyDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5AE14E24DD100400FF2F03 /* AnyDecoder.swift */; };
+		1B5D5D4E24E9856A00863550 /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5D5D4D24E9856A00863550 /* Serializer.swift */; };
 		1BF611BD24C449A3006AF4D9 /* MobileCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF611B324C449A3006AF4D9 /* MobileCore.framework */; };
 		1BF611C224C449A3006AF4D9 /* MobileCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF611C124C449A3006AF4D9 /* MobileCoreTests.swift */; };
 		1BF611C424C449A3006AF4D9 /* MobileCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF611B624C449A3006AF4D9 /* MobileCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BF611D724C45502006AF4D9 /* NotificationDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF611D624C45502006AF4D9 /* NotificationDescriptor.swift */; };
+		1BF611DA24C45DC0006AF4D9 /* NotificationCenter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF611D924C45DC0006AF4D9 /* NotificationCenter+Extension.swift */; };
+		1BF611DC24C45F08006AF4D9 /* EmptyPayloadNotificationDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF611DB24C45F08006AF4D9 /* EmptyPayloadNotificationDescriptor.swift */; };
+		1BF611E024C460F9006AF4D9 /* KeyboardNotificationDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF611DF24C460F9006AF4D9 /* KeyboardNotificationDescriptor.swift */; };
+		1BF611E324C482EA006AF4D9 /* UIApplicationNotificationDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF611E224C482EA006AF4D9 /* UIApplicationNotificationDescriptor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +37,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B24CEBD24CD2ABD00B179C3 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		1B24CEBF24CD2AF900B179C3 /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		1B24CEC124CD2CDF00B179C3 /* HTTPResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResponse.swift; sourceTree = "<group>"; };
+		1B24CEC424CD33A600B179C3 /* Cancellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
+		1B595CDA2526BC2500054142 /* HTTPResponseBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResponseBody.swift; sourceTree = "<group>"; };
+		1B595CDE2526BC7F00054142 /* HTTPContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPContentType.swift; sourceTree = "<group>"; };
+		1B595CE22526BCE400054142 /* HTTPMediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMediaType.swift; sourceTree = "<group>"; };
+		1B5AE14E24DD100400FF2F03 /* AnyDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDecoder.swift; sourceTree = "<group>"; };
+		1B5D5D4D24E9856A00863550 /* Serializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serializer.swift; sourceTree = "<group>"; };
 		1BF611B324C449A3006AF4D9 /* MobileCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobileCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF611B624C449A3006AF4D9 /* MobileCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileCore.h; sourceTree = "<group>"; };
 		1BF611B724C449A3006AF4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BF611BC24C449A3006AF4D9 /* MobileCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF611C124C449A3006AF4D9 /* MobileCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileCoreTests.swift; sourceTree = "<group>"; };
 		1BF611C324C449A3006AF4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF611D124C44FDF006AF4D9 /* run-scripts.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "run-scripts.sh"; sourceTree = "<group>"; };
+		1BF611D324C44FDF006AF4D9 /* swiftformat */ = {isa = PBXFileReference; lastKnownFileType = text; path = swiftformat; sourceTree = "<group>"; };
+		1BF611D424C44FDF006AF4D9 /* swiftformat.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = swiftformat.py; sourceTree = "<group>"; };
+		1BF611D624C45502006AF4D9 /* NotificationDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDescriptor.swift; sourceTree = "<group>"; };
+		1BF611D924C45DC0006AF4D9 /* NotificationCenter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+Extension.swift"; sourceTree = "<group>"; };
+		1BF611DB24C45F08006AF4D9 /* EmptyPayloadNotificationDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyPayloadNotificationDescriptor.swift; sourceTree = "<group>"; };
+		1BF611DF24C460F9006AF4D9 /* KeyboardNotificationDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardNotificationDescriptor.swift; sourceTree = "<group>"; };
+		1BF611E224C482EA006AF4D9 /* UIApplicationNotificationDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationNotificationDescriptor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,9 +81,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B5AE14D24DD0FF800FF2F03 /* AnyDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				1B5AE14E24DD100400FF2F03 /* AnyDecoder.swift */,
+			);
+			path = AnyDecoder;
+			sourceTree = "<group>";
+		};
 		1BF611A924C449A3006AF4D9 = {
 			isa = PBXGroup;
 			children = (
+				1BF611CE24C44FDF006AF4D9 /* Scripts */,
 				1BF611B524C449A3006AF4D9 /* MobileCore */,
 				1BF611C024C449A3006AF4D9 /* MobileCoreTests */,
 				1BF611B424C449A3006AF4D9 /* Products */,
@@ -71,6 +111,9 @@
 		1BF611B524C449A3006AF4D9 /* MobileCore */ = {
 			isa = PBXGroup;
 			children = (
+				1B5AE14D24DD0FF800FF2F03 /* AnyDecoder */,
+				1BF611E424C49633006AF4D9 /* Network */,
+				1BF611D524C453D3006AF4D9 /* Type-Safe Notification */,
 				1BF611B624C449A3006AF4D9 /* MobileCore.h */,
 				1BF611B724C449A3006AF4D9 /* Info.plist */,
 			);
@@ -84,6 +127,67 @@
 				1BF611C324C449A3006AF4D9 /* Info.plist */,
 			);
 			path = MobileCoreTests;
+			sourceTree = "<group>";
+		};
+		1BF611CE24C44FDF006AF4D9 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				1BF611D124C44FDF006AF4D9 /* run-scripts.sh */,
+				1BF611D324C44FDF006AF4D9 /* swiftformat */,
+				1BF611D424C44FDF006AF4D9 /* swiftformat.py */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		1BF611D524C453D3006AF4D9 /* Type-Safe Notification */ = {
+			isa = PBXGroup;
+			children = (
+				1BF611DD24C45F4D006AF4D9 /* Built-in Notification */,
+				1BF611D624C45502006AF4D9 /* NotificationDescriptor.swift */,
+				1BF611D924C45DC0006AF4D9 /* NotificationCenter+Extension.swift */,
+				1BF611DB24C45F08006AF4D9 /* EmptyPayloadNotificationDescriptor.swift */,
+			);
+			path = "Type-Safe Notification";
+			sourceTree = "<group>";
+		};
+		1BF611DD24C45F4D006AF4D9 /* Built-in Notification */ = {
+			isa = PBXGroup;
+			children = (
+				1BF611E124C482CB006AF4D9 /* UIApplication */,
+				1BF611DE24C460E5006AF4D9 /* Keyboard */,
+			);
+			path = "Built-in Notification";
+			sourceTree = "<group>";
+		};
+		1BF611DE24C460E5006AF4D9 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1BF611DF24C460F9006AF4D9 /* KeyboardNotificationDescriptor.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		1BF611E124C482CB006AF4D9 /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				1BF611E224C482EA006AF4D9 /* UIApplicationNotificationDescriptor.swift */,
+			);
+			path = UIApplication;
+			sourceTree = "<group>";
+		};
+		1BF611E424C49633006AF4D9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1B24CEBD24CD2ABD00B179C3 /* HTTPClient.swift */,
+				1B24CEBF24CD2AF900B179C3 /* HTTPRequest.swift */,
+				1B24CEC124CD2CDF00B179C3 /* HTTPResponse.swift */,
+				1B5D5D4D24E9856A00863550 /* Serializer.swift */,
+				1B24CEC424CD33A600B179C3 /* Cancellable.swift */,
+				1B595CDA2526BC2500054142 /* HTTPResponseBody.swift */,
+				1B595CDE2526BC7F00054142 /* HTTPContentType.swift */,
+				1B595CE22526BCE400054142 /* HTTPMediaType.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BF611C724C449A3006AF4D9 /* Build configuration list for PBXNativeTarget "MobileCore" */;
 			buildPhases = (
+				1BF611CD24C44ADD006AF4D9 /* Pre Run Scripts */,
 				1BF611AE24C449A3006AF4D9 /* Headers */,
 				1BF611AF24C449A3006AF4D9 /* Sources */,
 				1BF611B024C449A3006AF4D9 /* Frameworks */,
@@ -148,6 +253,7 @@
 				TargetAttributes = {
 					1BF611B224C449A3006AF4D9 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 					1BF611BB24C449A3006AF4D9 = {
 						CreatedOnToolsVersion = 11.6;
@@ -190,11 +296,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BF611CD24C44ADD006AF4D9 /* Pre Run Scripts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Pre Run Scripts";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n./scripts/run-scripts.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1BF611AF24C449A3006AF4D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B24CEC524CD33A600B179C3 /* Cancellable.swift in Sources */,
+				1BF611E324C482EA006AF4D9 /* UIApplicationNotificationDescriptor.swift in Sources */,
+				1BF611DC24C45F08006AF4D9 /* EmptyPayloadNotificationDescriptor.swift in Sources */,
+				1B24CEBE24CD2ABD00B179C3 /* HTTPClient.swift in Sources */,
+				1B595CE32526BCE400054142 /* HTTPMediaType.swift in Sources */,
+				1BF611D724C45502006AF4D9 /* NotificationDescriptor.swift in Sources */,
+				1B24CEC224CD2CDF00B179C3 /* HTTPResponse.swift in Sources */,
+				1B5D5D4E24E9856A00863550 /* Serializer.swift in Sources */,
+				1B24CEC024CD2AF900B179C3 /* HTTPRequest.swift in Sources */,
+				1B595CDF2526BC7F00054142 /* HTTPContentType.swift in Sources */,
+				1BF611E024C460F9006AF4D9 /* KeyboardNotificationDescriptor.swift in Sources */,
+				1BF611DA24C45DC0006AF4D9 /* NotificationCenter+Extension.swift in Sources */,
+				1B595CDB2526BC2500054142 /* HTTPResponseBody.swift in Sources */,
+				1B5AE14F24DD100400FF2F03 /* AnyDecoder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +481,7 @@
 		1BF611C824C449A3006AF4D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = G32N9Q2G5M;
@@ -356,6 +498,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mobilecore.MobileCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +507,7 @@
 		1BF611C924C449A3006AF4D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = G32N9Q2G5M;
@@ -388,6 +532,7 @@
 		1BF611CB24C449A3006AF4D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G32N9Q2G5M;
 				INFOPLIST_FILE = MobileCoreTests/Info.plist;
@@ -406,6 +551,7 @@
 		1BF611CC24C449A3006AF4D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G32N9Q2G5M;
 				INFOPLIST_FILE = MobileCoreTests/Info.plist;
